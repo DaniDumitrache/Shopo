@@ -1,0 +1,61 @@
+@media (max-width: 912px) {
+  .btn-primary {
+    padding: 5%;
+  }
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar .action a {
+    display: none;
+  }
+  #OpenMenu {
+    display: block;
+  }
+
+  .NavActive {
+    height: 100vh;
+    position: fixed;
+    transition: all 2s;
+    padding: 20px 0px 0px 0px;
+    justify-content: space-around;
+  }
+
+  .NavActive .Logo {
+    text-align: center;
+  }
+
+  .NavActive ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex !important;
+  }
+
+  .NavActive ul li a {
+    font-size: 35px;
+  }
+
+  .ecom .content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact .container form .form-input {
+    width: 148px;
+  }
+
+  .footer .footer-content {
+  }
+
+  .footer .footer-content .links {
+    flex-direction: column;
+  }
+
+  .footer .footer-content .links ul {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 513px) {
+}
