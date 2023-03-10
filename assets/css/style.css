@@ -128,7 +128,7 @@
 
 .home-intro .content {
   padding: 150px;
-  background-image: url("assets/img/banner.jpg");
+  background-image: url("../img/banner.jpg");
   background-size: cover;
   text-align: center;
 }
